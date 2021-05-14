@@ -6,7 +6,16 @@
 
 If you use our work to fulfill any of your needs, please cite us:
 
-```
+```BibTex
+@article{Bertoni:21,
+  author = {Mateus A. Bertoni and Gustavo H. de Rosa and Jose R. F. Brega},
+  title = {Optimum-path forest stacking-based ensemble for intrusion detection},
+  journal = {Evolutionary Intelligence},
+  doi = {10.1007/s12065-021-00609-7},
+  year = {2021},
+  month = may,
+  publisher = {Springer Science and Business Media {LLC}}
+}
 ```
 
 ## Structure
