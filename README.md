@@ -51,7 +51,7 @@ Our first classification script is to use the k-folds cross validation to mitiga
 
 ```python single_classifier_kfolds.py -h```
 
-Our seond classification script is to use the traditional training/testing set split validation to mitigate the randomness of the dataset. With that in mind, just run the following script with the input arguments:
+Our second classification script is to use the traditional training/testing set split validation to mitigate the randomness of the dataset. With that in mind, just run the following script with the input arguments:
 
 ```python single_classifier_split.py -h```
 
@@ -59,7 +59,7 @@ Our seond classification script is to use the traditional training/testing set s
 
 ### Classification with stacking-based ensemble 
 
-Additionally, we offer a stacking-based ensmeble to construct more robust classifiers. With that in mind, just run the following script with the input arguments:
+Additionally, we offer a stacking-based ensemble to construct more robust classifiers. With that in mind, just run the following script with the input arguments:
 
 ```python stacking_classifier.py -h```
 
