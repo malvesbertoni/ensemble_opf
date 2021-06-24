@@ -18,12 +18,12 @@ def load_dataset(dataset='NSL-KDD'):
     # If the dataset is `nslkdd`
     if dataset == 'nsl-kdd':
         # Loading a .txt file to a numpy array
-        txt = l.load_txt('data/nsl-kdd_resized.txt')
+        txt = l.load_txt('data/nsl-kdd.txt')
 
     # If the dataset is `unespy`
     elif dataset == 'unespy':
         # Loading a .txt file to a numpy array
-        txt = l.load_txt('data/unespy_resized.txt')
+        txt = l.load_txt('data/unespy.txt')
 
     # Parsing a pre-loaded numpy array
     X, Y = p.parse_loader(txt)
